@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.rounded-image {
+  border: 5px solid #8B0000;
+  border-radius: 20px;
+  width: 75%;
+}
+
+.form-container {
+  border: 5px solid #73030f;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #73030f;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #73030f;
+}
+
+.orange-text {
+  color: #73030f;
+  font-weight: bold;
+}
+
+.green-button {
+  background-color: #008000;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
+  border: 12px solid #8B0000;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Regla para establecer el ancho de los textarea en el 85% y agregar barras de desplazamiento vertical */
+.form-container textarea {
+  width: 85%;
+  overflow-y: auto;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SESION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <img src="San_Juan_Maria_Vianney.jpg" alt="San Juan Maria Vianney" class="rounded-image">
+    </div>
+    <div class="right-column">
+      <div class="form-container">
+        <h2 class="title">Sesión de Aprendizaje 2024</h2>
+        <h3 class="subtitle">CEP Parroquial San Juan María Vianney</h3>
+        <form action="#" method="post" id="main-form">
+
+        <label for="nivel" class="orange-text"><b>Primaria/Secundaria:</b></label><br>
+            <select id="nivel" name="nivel" class="orange-text" required>
+              <option value="Primaria">Primaria</option>
+              <option value="Secundaria">Secundaria</option>
+
+            </select><br><br>
+
+        <label for="grado" class="orange-text"><b>Grado/Año:</b></label><br>
+            <select id="grado" name="grado" class="orange-text" required>
+              <option value="Primero">1ero</option>
+              <option value="Segundo">2do</option>
+              <option value="Tercero">3ero</option>
+              <option value="Cuarto">4to</option>
+              <option value="Quinto">5to</option>
+              <option value="Sexto">6to</option>
+            </select><br><br>
+
+          <label for="competency" class="orange-text">Competencia:</label><br>
+          <textarea id="competency" name="competency" rows="4" required></textarea><br><br>
+          
+          <label for="capability" class="orange-text">Capacidad:</label><br>
+          <textarea id="capability" name="capability" rows="4" required></textarea><br><br>
+          
+          <label for="performance" class="orange-text">Desempeño Precisado:</label><br>
+          <textarea id="performance" name="performance" rows="3" required></textarea><br><br>
+
+          <label for="purpose" class="orange-text">Propósito:</label><br>
+          <textarea id="purpose" name="purpose"></textarea><br><br>
+
+          <label for="tema" class="orange-text">Tema:</label><br>
+          <textarea id="tema" name="tema"></textarea><br><br>
+
+        <label for="duracion" class="orange-text"><b>Duracion:</b></label><br>
+            <select id="duracion" name="duracion" class="orange-text" required>
+              <option value="45 minutos">45 minutos</option>
+              <option value="90 minutos">90 minutos</option>
+              <option value="180 minutos">180 minutos</option>
+            </select><br><br>
+ 
+          <label for="evidencia" class="orange-text">Evidencia:</label><br>
+          <textarea id="evidencia" name="evidencia"></textarea><br><br>  
+       
+          <label for="instrumento" class="orange-text">Instrumento Evaluación:</label><br>
+          <textarea id="instrumento" name="instrumento" ></textarea><br><br>
+          
+
+          
+          <button type="button" id="copy-prompt" class="green-button">Copiar el PROMPT</button>
+        </form>
+        <form action="#" method="post" id="prompt-form" style="display: none;">
+          <textarea id="prompt-text" readonly></textarea><br><br>
+          <button type="button" id="back-to-form" class="green-button">Volver al Formulario</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="OMNITECHCLOUD.jpg" alt="Omnitech Cloud" class="centered-image">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
